@@ -1,0 +1,38 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ebebeb;
+}
+
+.login>h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 3%;
+}
+
+input {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.next-check-true,
+.password-check-true,
+.email-check-true,
+.next-check-false,
+.password-check-false,
+.email-check-false {
+    display: none;
+    font-size: 12px;
+}
+
+.login>button {
+    width: 20%;
+    margin: 0 auto;
+}
